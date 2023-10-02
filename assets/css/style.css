@@ -38,7 +38,7 @@ h4{
 .item{
     height: 600px !important;
     width: 100%;
-    background-image: url(../images/girl.jpg);
+   
     filter: brightness(50%);
 }
 
