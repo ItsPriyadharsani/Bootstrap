@@ -1,6 +1,14 @@
 body{
-    font-style: italic;
-    font-weight: 500;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight:500;
+}
+h1{
+ 
+    font-weight:700;
+}
+h4{
+    color:#00008b;
+    font-weight:700;
 }
 .navbar{
     background-color:black;
@@ -13,7 +21,7 @@ body{
 }
 #heading:after{
     content: 'Dharsani';
-    color:cyan;
+    color:blue;
 }
 .nav-item{
     padding-left: 10px;
@@ -28,11 +36,12 @@ body{
    font-size: 19px;
 }
 .item{
-    height: 50vm !important;
+    height: 600px !important;
     width: 100%;
     background-image: url(../images/girl.jpg);
     filter: brightness(50%);
 }
+
 .card{
     margin-top:30px;
 }
@@ -73,18 +82,24 @@ body{
 
 .fa-brands{
     font-size: 50px;
-    color: blue;
+    color:#00008b ;
+ 
 }
+
 .fa-regular{
     font-size:50px;
-    color:blue; 
+    color:#00008b; 
+}
+.card:hover{
+    background-color:blue;
+    color:white;
 }
 #box{
     background-color: aquamarine !important;
 }
 .overlay{
-    background-color:blue;
-    height: 350px;
+    background-color:#00008b;
+    height: 490px;
     color: #fff;
 }
 .icon{
@@ -116,4 +131,6 @@ body{
 }
 .heads{
     color: blue;
+     color:#00008b;
+     font-family: 'Arvo', serif;
 }
