@@ -15,7 +15,8 @@
    <label>Photo</label>
  <img src="rain coffee.jpg" id="cart">
  <div><span id="photo"></span></div>
-
+<button id="btn" onclick="increment()">+</button> <button id="display">0</button>
+<button id="minus" onclick="decrement()" > -</button>
    <script>
     function getllocal(){
     console.log('---------------');
@@ -33,6 +34,23 @@
         console.log(productimage);
 
     
+    }
+       function increment(){
+            let display=document.getElementById("display");
+        if (display.textContent<=3){
+          display.textContent++;
+        }  else{
+            alert('max limit is four')
+        }  
+        }
+function decrement(){
+        // document.getElementById("maxlimitbtnerror").style="display:none;";
+        let display=document.getElementById("display");
+        if (display.textContent>=2){
+          display.textContent--;
+        }else{
+            alert('minimum one product')
+        }
     }
     getllocal()
    </script> 
