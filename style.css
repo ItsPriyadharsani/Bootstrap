@@ -1,0 +1,14 @@
+body{
+   background-color: green;
+}
+.container{
+    font-family: monospace;
+    background-color:khaki;
+}
+.font{
+    color:black;
+}
+input,textarea{
+    width: 300px;
+    height: 40px;
+}
