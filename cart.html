@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body><label>product name</label>
+    <div><span id="element">product name</span></div>
+    <div><label>description</label>
+    <span id="element1"></span></div>
+    <div><label>Price</label>
+   <span id="element2"></span></div>
+   <label>Photo</label>
+ <img src="rain coffee.jpg" id="cart">
+ <div><span id="photo"></span></div>
+
+   <script>
+    function getllocal(){
+    console.log('---------------');
+    let name=localStorage.getItem('pro');
+    let Description=localStorage.getItem('des')
+    let price=localStorage.getItem('pri')
+    // let  = localStorage.getItem("photo");
+    console.log('------name---------',name);
+    document.getElementById('element').innerHTML=name
+    document.getElementById('element1').innerHTML=Description
+    document.getElementById('element2').innerHTML=price
+     
+    let productimage = localStorage.getItem("pic");
+        document.getElementById("cart").src = productimage;
+        console.log(productimage);
+
+    
+    }
+    getllocal()
+   </script> 
+</body>
+</html>
