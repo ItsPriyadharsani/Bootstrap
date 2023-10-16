@@ -17,6 +17,7 @@
  <div><span id="photo"></span></div>
 <button id="btn" onclick="increment()">+</button> <button id="display">0</button>
 <button id="minus" onclick="decrement()" > -</button>
+     var max=document.getElementById('max').value;
    <script>
     function getllocal(){
     console.log('---------------');
@@ -52,6 +53,9 @@ function decrement(){
             alert('minimum one product')
         }
     }
+       if(max>=display){
+           alert('lllllll')
+       }
     getllocal()
    </script> 
 </body>
